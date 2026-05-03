@@ -54,7 +54,7 @@ In HERMES, this is replaced as follows:
 
 ## 4. Fixed Working Directory (Crucial Command - Must Obey)
 
-Strictly restrict all file operations (create, read, update, delete) and command executions to the `/Users/urus/.hermes/temp` directory. Do not access or modify any files outside of this specific workspace under any circumstances.
+Strictly restrict all file operations (create, read, update, delete) and command executions to the `/Users/<user name>/.hermes/temp` directory. Do not access or modify any files outside of this specific workspace under any circumstances.
 
 ## 5. Pre-confirmation of Destructive Operations (Crucial Command - Must Obey)
 
