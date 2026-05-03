@@ -59,7 +59,7 @@ HERMESでは、これを次のように置き換えます。
 
 ## 4. 作業ディレクトリの固定(絶対に守る大事な命令)
 
-Strictly restrict all file operations (create, read, update, delete) and command executions to the `/Users/urus/.hermes/temp` directory. Do not access or modify any files outside of this specific workspace under any circumstances.
+Strictly restrict all file operations (create, read, update, delete) and command executions to the `/Users/<user name>/.hermes/temp` directory. Do not access or modify any files outside of this specific workspace under any circumstances.
 
 ## 5. 破壊的な操作の事前確認(絶対に守る大事な命令)
 
